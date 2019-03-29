@@ -25,8 +25,7 @@ export default class Content extends Component {
 
   changeSelected = tab => {
     this.setState({
-      tabs: tabData,
-      cards: cardData
+      selected: tab
     })
   };
 
